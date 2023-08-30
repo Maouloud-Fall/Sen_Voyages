@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Sen voyage | Responsive Travel & Tourism Template</title>
+        <title>Sen_Voyages</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -12,7 +12,7 @@
         <link href="img/apple-favicon.png" rel="apple-touch-icon">
 
         <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet"> 
 
         <!-- Vendor CSS File -->
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,19 +26,20 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
 
+
     <body>
         <!-- Header Section Start -->
         <header id="header">
             <a href="index.html" class="logo"><img src="img/logo.png" alt="logo"></a>
-            <div class="phone"><i class="fa fa-phone"></i>+1 234 567 8900</div>
+            <div class="phone"><i class="fa fa-phone"></i>+221 776993864</div>
             <div class="mobile-menu-btn"><i class="fa fa-bars"></i></div>
             <nav class="main-menu top-menu">
                 <ul>
-                    <li><a href="index.html">Accueil</a></li>
+                    <li class="active"><a href="index.html">Accueil</a></li>
                     <li><a href="about.html">A propos</a></li>
-                    <li class="active"><a href="hotel.html">Hotel</a></li>
+                    <li><a href="hotel.html">Hôtel</a></li>
                     <li><a href="reservation.html">Reservation</a></li>
-                    <li><a href="login.html">Login</a></li>
+                    <li><a href="identifier.html">S'identifier</a></li>
                     <li><a href="contact.html">Nous contacter</a></li>
                 </ul>
             </nav>
@@ -73,43 +74,74 @@
                     </div>
                     <div class="control-group col-md-3">
                         <div class="form-row">
-                            <div class="control-group col-md-6">
-                                <label>Adult</label>
+                            <div class="control-group col-md-2 control-group-kid">
+                                <label>Depart</label>
                                 <select class="custom-select">
-                                    <option selected>0</option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                    <option value="5">5</option>
-                                    <option value="6">6</option>
-                                    <option value="7">7</option>
-                                    <option value="8">8</option>
-                                    <option value="9">9</option>
-                                    <option value="10">10</option>
+                                    <option selected>Ville de depart</option>
+                                    <option value="senegal">Senegal</option>
+                                    <option value="usa">USA</option>
+                                    <option value="allmagne">Allmagne</option>
+                                    <option value="maroc">Maroc</option>
+                                    <option value="arabie-saoudit">Arabie Saoudit</option>
+                                    <option value="brasil">Brasil</option>
+                                    <option value="dubail">Dubail</option>
+                                    <option value="france">France</option>
+                                    <option value="pologne">Pologne</option>
+                                    <option value="espagne">Espagne</option>
                                 </select>
                             </div>
-                            <div class="control-group col-md-6 control-group-kid">
-                                <label>Enfant</label>
+                            <div class="control-group col-md-2 control-group-kid">
+                                <label>Destination</label>
                                 <select class="custom-select">
-                                    <option selected>0</option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                    <option value="5">5</option>
-                                    <option value="6">6</option>
-                                    <option value="7">7</option>
-                                    <option value="8">8</option>
-                                    <option value="9">9</option>
-                                    <option value="10">10</option>
+                                    <option selected>Ville de d'arrivee</option>
+                                    <option value="senegal">Senegal</option>
+                                    <option value="usa">USA</option>
+                                    <option value="allmagne">Allmagne</option>
+                                    <option value="maroc">Maroc</option>
+                                    <option value="arabie-saoudit">Arabie Saoudit</option>
+                                    <option value="brasil">Brasil</option>
+                                    <option value="dubail">Dubail</option>
+                                    <option value="france">France</option>
+                                    <option value="pologne">Pologne</option>
+                                    <option value="espagne">Espagne</option>
                                 </select>
                             </div>
-                        </div>
-                    </div>
-                    <div class="control-group col-md-3">
-                        <button class="btn btn-block">Rechercher</button>
-                    </div>
+                            <div class="control-group col-md-2">
+                                <label>Enregistrement</label>
+                                <div class="form-group">
+                                    <div class="input-group date" id="date-3" data-target-input="nearest">
+                                        <input type="text" class="form-control datetimepicker-input" data-target="#date-3"/>
+                                        <div class="input-group-append" data-target="#date-3" data-toggle="datetimepicker">
+                                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="control-group col-md-3">
+                                <div class="form-row">
+                                    <div class="control-group col-md-4">
+                                        <label>Passager</label>
+                                        <select class="custom-select">
+                                            <option selected>0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                        </select>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="control-group col-md-3">
+                                <button class="btn btn-block">Rechercher</button>
+                            </div>
                 </div>
             </div>
         </div>
